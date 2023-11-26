@@ -4,8 +4,8 @@ public class character{
     private double hp,mana,atk,def,spd;
     private static double swordweight, shieldweight;
     private boolean swordok,shieldok;
-    private static sword sw;
-    private static shields sh;
+    private sword sw;
+    private shields sh;
 
     public character(String name){
         this.name = new String(name);
